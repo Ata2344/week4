@@ -4,21 +4,18 @@ import java.util.Date;
 
 import abstracts.Entity;
 
-public class Customer implements Entity
-{
+public class Customer implements Entity {
 	private int id;
 	private String firstName;
 	private String lastName;
 	private Date dateOfBirth;
 	private String nationalityId;
-	
-	public Customer()
-	{
-		
+
+	public Customer() {
+
 	}
-	
-	public Customer(int id, String firstName, String lastName, Date dateOfBirth, String nationalityId) 
-	{
+
+	public Customer(int id, String firstName, String lastName, Date dateOfBirth, String nationalityId) {
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
@@ -26,53 +23,43 @@ public class Customer implements Entity
 		this.nationalityId = nationalityId;
 	}
 
-	public int getId() 
-	{
+	public int getId() {
 		return id;
 	}
 
-	public void setId(int id) 
-	{
+	public void setId(int id) {
 		this.id = id;
 	}
 
-	public String getFirstName() 
-	{
+	public String getFirstName() {
 		return firstName;
 	}
 
-	public void setFirstName(String firstName) 
-	{
+	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
 
-	public String getLastName() 
-	{
+	public String getLastName() {
 		return lastName;
 	}
 
-	public void setLastName(String lastName) 
-	{
+	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
 
-	public Date getDateOfBirth()
-	{
+	public Date getDateOfBirth() {
 		return dateOfBirth;
 	}
 
-	public void setDateOfBirth(Date dateOfBirth)
-	{
+	public void setDateOfBirth(Date dateOfBirth) {
 		this.dateOfBirth = dateOfBirth;
 	}
 
-	public String getNationalityId() 
-	{
+	public String getNationalityId() {
 		return nationalityId;
 	}
 
-	public void setNationalityId(String nationalityId) 
-	{
+	public void setNationalityId(String nationalityId) {
 		this.nationalityId = nationalityId;
 	}
 }
